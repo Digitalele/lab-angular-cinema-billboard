@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let film of films">
+        <h4>Room {{ film.rooms }}</h4><br>
+        <img src="{{ film.poster }}"/><br>
+        <a href="/movie/{{ film.id }}">{{ film.title }}</a>
+  </li>
+</ul>
